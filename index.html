@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Nhúc Nhích</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; }
+        .moving-text { 
+            display: inline-block; 
+            font-size: 24px; 
+            color: red; 
+            animation: move 1s infinite alternate;
+        }
+        @keyframes move {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(10px); }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="moving-text">Chữ này nhúc nhích nè! 🚀</h1>
+</body>
+</html>
